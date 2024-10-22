@@ -1,0 +1,21 @@
+server:
+  port: -1
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 1
+    password: root
+
+app:
+  ip: 127.0.0.1 #本地IP地址（非必填，不填时自动获取本机ip地址，但多网卡的机器可能会获取到错误的ip）
+  ws:
+    port: -1
+    enable: true
+  tcp:
+    port: -1
+    enable: true
+  zk:
+    path: /muchat/node
+    address: localhost:2181

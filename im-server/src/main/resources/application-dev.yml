@@ -1,0 +1,65 @@
+#这是配置服务的端口
+server:
+  port: 8888
+#配置项目的数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/panda_chat?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    username: root
+    password: 625211234
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 1
+    password: root
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  main:
+    allow-circular-references: true
+
+mybatis-plus:
+  configuration:
+    # 是否开启自动驼峰命名规则（camel case）映射，即从经典数据库列名 A_COLUMN（下划线命名） 到经典 Java 属性名 aColumn（驼峰命名） 的类似映射
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # mapper
+  mapper-locations:
+    # *.xml的具体路径
+    - classpath:mappers/*.xml
+minio:
+  endpoint: http://127.0.0.1:9000 #内网地址
+  public: http://127.0.0.1:9000  #外网访问地址
+  accessKey: bFNXk0mOvZtCzwzFWedE
+  secretKey: Xz5rZ7GpfaUuQiT3RqpN32zamhga3ih18rbnNkr6
+  bucketName: box-im
+  imagePath: image
+  filePath: file
+
+webrtc:
+  iceServers:
+    - urls: stun:stun.l.google.com:19302
+
+
+app:
+  zk:
+    address: localhost:2181
+    path: /muchat/node
+  auth2:
+    loginRedirectUri: http://127.0.0.1:8080/oAuthLoginResult
+    gitee:
+      clientId: 1
+      clientSecret: 1
+      redirectUri: http://localhost:8888/connect/callback/GITEE
+    github:
+      clientId: 1
+      clientSecret: 1
+      redirectUri: http://localhost:8888/connect/callback/GITHUB
+
+swagger:
+  enable: true
+
