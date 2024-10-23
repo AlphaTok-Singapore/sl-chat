@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Slf4j
 @Configuration
-@ComponentScan("io.pisceshub.muchat.sdk")
+@ComponentScan("sl.chat.dev.sdk")
 public class IMAutoConfiguration {
 
 }

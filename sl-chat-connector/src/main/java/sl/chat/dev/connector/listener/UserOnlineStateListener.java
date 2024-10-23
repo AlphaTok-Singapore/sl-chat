@@ -16,9 +16,8 @@ import javax.annotation.Resource;
 
 /**
  * @author muxiaohui
- * @project muchat
+ * @project sl-chat
  * @date 2021/7/23
- * @description Good Good Study,Day Day Up.
  */
 @Component
 @Slf4j

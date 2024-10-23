@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author muxiaohui
- * @project muchat
+ * @project sl-chat
  * @date 2021/7/23
  * @description Good Good Study,Day Day Up.
  */

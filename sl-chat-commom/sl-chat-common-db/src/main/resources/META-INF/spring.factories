@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=sl.chat.dev.common.db.MybatisPlusAutoConfiguration
