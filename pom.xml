@@ -4,17 +4,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.pisceshub.muchat</groupId>
-  <artifactId>muchat</artifactId>
+  <groupId>sl.chat.dev</groupId>
+  <artifactId>sl-chat</artifactId>
   <packaging>pom</packaging>
   <version>1.0</version>
 
   <modules>
-    <module>im-server</module>
-    <module>im-connector</module>
-    <module>im-commom</module>
-    <module>im-sdk</module>
-    <module>im-admin</module>
+    <module>sl-chat-server</module>
+    <module>sl-chat-connector</module>
+    <module>sl-chat-commom</module>
+    <module>sl-chat-sdk</module>
+    <module>sl-chat-admin</module>
   </modules>
 
 
@@ -68,34 +68,34 @@
     <dependencies>
 
       <dependency>
-        <groupId>io.pisceshub.muchat</groupId>
-        <artifactId>im-common-core</artifactId>
+        <groupId>sl.chat.dev</groupId>
+        <artifactId>sl-chat-common-core</artifactId>
         <version>1.0</version>
       </dependency>
       <dependency>
-        <groupId>io.pisceshub.muchat</groupId>
-        <artifactId>im-sdk</artifactId>
+        <groupId>sl.chat.dev</groupId>
+        <artifactId>sl-chat-sdk</artifactId>
         <version>1.0</version>
       </dependency>
       <dependency>
-        <groupId>io.pisceshub.muchat</groupId>
-        <artifactId>im-common-log</artifactId>
+        <groupId>sl.chat.dev</groupId>
+        <artifactId>sl-chat-common-log</artifactId>
         <version>1.0</version>
       </dependency>
       <dependency>
-        <groupId>io.pisceshub.muchat</groupId>
-        <artifactId>im-common-publics</artifactId>
+        <groupId>sl.chat.dev</groupId>
+        <artifactId>sl-chat-common-publics</artifactId>
         <version>1.0</version>
       </dependency>
 
       <dependency>
-        <groupId>io.pisceshub.muchat</groupId>
-        <artifactId>im-common-db</artifactId>
+        <groupId>sl.chat.dev</groupId>
+        <artifactId>sl-chat-common-db</artifactId>
         <version>1.0</version>
       </dependency>
       <dependency>
-        <groupId>io.pisceshub.muchat</groupId>
-        <artifactId>im-common-cache</artifactId>
+        <groupId>sl.chat.dev</groupId>
+        <artifactId>sl-chat-common-cache</artifactId>
         <version>1.0</version>
       </dependency>
       <dependency>
