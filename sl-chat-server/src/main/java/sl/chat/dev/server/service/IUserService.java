@@ -2,7 +2,6 @@ package sl.chat.dev.server.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import sl.chat.dev.server.common.entity.User;
-import io.pisceshub.muchat.server.common.vo.user.*;
 import me.zhyd.oauth.model.AuthUser;
 import sl.chat.dev.server.common.vo.user.*;
 

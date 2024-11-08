@@ -5,7 +5,6 @@ import sl.chat.dev.common.publics.sensitive.common.handler.IHandler;
 import sl.chat.dev.common.publics.sensitive.common.utils.ArgUtil;
 import sl.chat.dev.common.publics.sensitive.common.utils.CollectionUtil;
 import sl.chat.dev.common.publics.sensitive.common.utils.StringUtil;
-import io.pisceshub.muchat.common.publics.sensitive.core.api.*;
 import sl.chat.dev.common.publics.sensitive.core.config.SensitiveWordConfig;
 import sl.chat.dev.common.publics.sensitive.core.support.handler.SensitiveWordDefaultHandler;
 import sl.chat.dev.common.publics.sensitive.core.support.replace.SensitiveWordReplaceChar;
